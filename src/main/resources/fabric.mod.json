@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "This is a Tutorial Mod by Jeewan.",
+	"authors": [
+		"Jeewan"
+	],
+	"contact": {
+		"homepage": "https://jeewanr.me",
+		"sources": "https://github.com/example/tutorialmod"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"jeewan.tutorialmod.TutorialMod"
+		],
+		"client": [
+			"jeewan.tutorialmod.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"fabric": "*",
+		"minecraft": "1.21"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
