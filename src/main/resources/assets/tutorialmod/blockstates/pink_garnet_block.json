@@ -1,6 +1,7 @@
 {
- "variants": {
-   "": {
-     "model": "tutorialmod:pink_garnet_block" }
- }
+  "variants": {
+    "": {
+      "model": "tutorialmod:block/pink_garnet_block"
+    }
+  }
 }

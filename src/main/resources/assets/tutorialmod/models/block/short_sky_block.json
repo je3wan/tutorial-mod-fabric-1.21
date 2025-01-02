@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tutorialmod:block/short_cut_sky_block"
+  }
+}
